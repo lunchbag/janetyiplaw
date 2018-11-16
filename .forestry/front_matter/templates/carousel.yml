@@ -13,12 +13,14 @@ fields:
       type: simple
     required: true
     options:
-    - 1st
-    - 2nd
-    - 3rd
+    - '1'
+    - '2'
+    - '3'
+    - '0'
   label: Category
   name: category
   description: The carousel this image should be inserted in
+  default: 1st
 pages:
 - content/Carousel/4.md
 - content/Carousel/3.md
