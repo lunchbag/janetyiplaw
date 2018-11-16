@@ -4,8 +4,9 @@ hide_body: false
 is_partial: false
 fields:
 - type: file
-  name: upload_image
+  name: image
   label: Upload image
+  description: The image to display in the carousel
 - type: select
   config:
     source:
