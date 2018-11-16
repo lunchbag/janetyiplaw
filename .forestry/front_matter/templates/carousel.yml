@@ -7,4 +7,5 @@ fields:
   name: upload_image
   label: Upload image
 pages:
+- content/Carousel/image.md
 - content/carousel-1.md
