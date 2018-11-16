@@ -20,6 +20,7 @@ fields:
   name: category
   description: The carousel this image should be inserted in
 pages:
+- content/Carousel/4.md
 - content/Carousel/3.md
 - content/Carousel/2.md
 - content/Carousel/image.md
