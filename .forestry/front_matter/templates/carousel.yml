@@ -6,6 +6,18 @@ fields:
 - type: file
   name: upload_image
   label: Upload image
+- type: select
+  config:
+    source:
+      type: simple
+    required: true
+    options:
+    - 1st
+    - 2nd
+    - 3rd
+  label: Category
+  name: category
+  description: The carousel this image should be inserted in
 pages:
 - content/Carousel/image.md
 - content/carousel-1.md
