@@ -20,5 +20,6 @@ fields:
   name: category
   description: The carousel this image should be inserted in
 pages:
+- content/Carousel/2.md
 - content/Carousel/image.md
 - content/carousel-1.md
