@@ -6,3 +6,5 @@ fields:
 - type: file
   name: upload_image
   label: Upload image
+pages:
+- content/carousel-1.md
