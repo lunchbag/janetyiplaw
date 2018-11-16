@@ -1,4 +1,4 @@
 baseURL = "http:/janetyiplaw.com/"
-title = "Janet Yip-Law"
-theme = "v1"
 paginate = "100"
+theme = "v1"
+title = "Janet Yip-Law"
