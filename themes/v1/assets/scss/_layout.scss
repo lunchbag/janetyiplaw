@@ -1,0 +1,67 @@
+html,
+body {
+  background-color: #fff;
+  width: 100%;
+  margin: 0;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Volkorn";
+  font-style: italic;
+  font-weight: 300;
+}
+
+h1 {
+  font-size: 2.5rem;
+  padding-bottom: 24px;
+  text-align: center;
+}
+
+p {
+  font-size: 1.1rem;
+  line-height: 1.6rem;
+  margin-bottom: 24px;
+  font-weight: 300;
+  font-family: "Noto Serif";
+}
+
+/* */
+
+.container {
+  margin: 0 auto;
+  width: 920px;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    width: 780px;
+  }
+}
+
+@media (max-width: 850px) {
+  .container {
+    width: 600px;
+  }
+}
+
+@media (max-width: 650px) {
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+}
+
+/* footer */
+
+footer {
+  width: 100%;
+  margin-bottom: 32px;
+}
+
+footer > p {
+  font-size: 0.9rem;
+  text-align: center;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  {{ partial "head.html" . }}
+  {{ block "page_css" . }}{{ end }}
+</head>
+
+<body>
+  {{ block "intro" . }}{{ end }}
+
+  {{ partial "nav.html" . }}
+
+  {{ range where .Data.Pages "Section" "home" }}
+  <div class="section container">
+    <h1>{{ .Title }}</h1>
+    <p>{{ .Content }}</p>
+  </div>
+
+  <ul class="carousel">
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+  </ul>
+  {{ end }}
+
+
+  <div id="content">
+    {{ block "main" . }}{{ end }}
+  </div>
+  {{ partial "footer.html" . }}
+
+  {{ block "page_js" . }}{{ end }}
+</body>
+
+</html>
