@@ -9,7 +9,9 @@
 <body>
   {{ block "intro" . }}{{ end }}
 
-  {{ partial "nav.html" . }}
+  <ul id="nav">
+    {{ block "nav" . }}{{ end }}
+  </ul>
 
   {{ $.Scratch.Set "index" 0 }}
 
