@@ -11,21 +11,21 @@
 
   {{ partial "nav.html" . }}
 
+  {{ $.Scratch.Set "index" 0 }}
+
   {{ range where .Data.Pages "Section" "home" }}
+  {{ $index := string ($.Scratch.Get "index") }}
   <div class="section container">
     <h1>{{ .Title }}</h1>
     <p>{{ .Content }}</p>
   </div>
-
   <ul class="carousel">
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
+    {{ range where .Site.Pages ".Params.category" $index }}
+    <li style="background-image:url('{{ .Params.image }}')"></li>
+    {{ end }}
   </ul>
+  {{ $.Scratch.Add "index" 1 }}
   {{ end }}
-
 
   <div id="content">
     {{ block "main" . }}{{ end }}

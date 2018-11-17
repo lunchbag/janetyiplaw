@@ -31,9 +31,43 @@
 .carousel > li {
   display: block;
   height: 200px;
-  width: 500px;
-  margin-left: -1px;
-  border: 1px solid #efefef;
+  width: 25%;
+  border: 1px solid #fff;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  top: 0;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  transition: all 0.1s linear;
+
+  &:hover {
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+    top: -50px;
+    height: 300px;
+    width: 27.5%;
+  }
+
+  // img {
+  //   object-fit: cover;
+  //   object-position: 50% 50%;
+  //   height: 200px;
+  //   width: 100%;
+  //   position: relative;
+  //   top: 0;
+  //   -webkit-filter: grayscale(100%);
+  //   filter: grayscale(100%);
+  //   transition: all 0.1s linear;
+  //
+  //   &:hover {
+  //     -webkit-filter: grayscale(0%);
+  //     filter: grayscale(0%);
+  //     top: -50px;
+  //     height: 300px;
+  //     width: 100%;
+  //   }
+  // }
 }
 
 .carousel > li:hover {
