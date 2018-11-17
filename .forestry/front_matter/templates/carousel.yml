@@ -22,8 +22,4 @@ fields:
   description: The carousel this image should be inserted in
   default: 1st
 pages:
-- content/Carousel/4.md
-- content/Carousel/3.md
-- content/Carousel/2.md
-- content/Carousel/image.md
 - content/carousel-1.md
