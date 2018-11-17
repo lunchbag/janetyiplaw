@@ -1,4 +1,11 @@
-baseURL = "/"
-paginate = "100"
-theme = "v1"
+baseURL = "http://janetyiplaw.com"
+languageCode = "en-us"
 title = "Janet Yip-Law"
+theme = "v1"
+paginate = "100"
+
+[params]
+  author = "Jennifer Yip"
+
+[permalinks]
+  posts = "/:filename/"
