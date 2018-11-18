@@ -6,21 +6,46 @@
   padding: 0;
   list-style: none;
   display: flex;
+  display: none;
   align-items: center;
   justify-content: space-around;
-  background-color: #fff;
-  border-bottom: 1px solid #efefef;
+  background-color: #fefefe;
+  border-bottom: 0px solid #efefef;
   z-index: 20;
-  font-family: "Noto Serif";
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 13px;
+  font-family: "Avenir";
 }
 
 #nav.sticky {
   position: fixed;
   top: 0;
   left: 0;
+  padding-top: 0;
 }
 
 #nav li {
   text-align: center;
   width: 200px;
+}
+
+/* Name at the top */
+
+#top {
+  width: 100%;
+  padding: 48px 0;
+  span {
+    display: block;
+    text-align: center;
+    font-family: "Karla";
+  }
+  .sub {
+    color: #3c3c3c;
+  }
+
+  .main {
+    font-family: "Lobster";
+    font-size: 2rem;
+  }
 }
