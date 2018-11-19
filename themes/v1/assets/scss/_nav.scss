@@ -1,51 +1,54 @@
-/* nav bar */
-#nav {
-  height: 100px;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  display: flex;
-  display: none;
-  align-items: center;
-  justify-content: space-around;
-  background-color: #fefefe;
-  border-bottom: 0px solid #efefef;
-  z-index: 20;
-  text-transform: uppercase;
-  font-weight: 300;
-  font-size: 13px;
-  font-family: "Avenir";
-}
-
-#nav.sticky {
-  position: fixed;
-  top: 0;
-  left: 0;
-  padding-top: 0;
-}
-
-#nav li {
-  text-align: center;
-  width: 200px;
-}
-
-/* Name at the top */
-
 #top {
+  background-color: #fff;
   width: 100%;
   padding: 48px 0;
+  border-bottom: 1px solid #efefef;
+  transition: top 0.2s linear;
+
+  @media (max-width: 850px) {
+    padding: 32px 0;
+  }
+
+  @media (max-width: 650px) {
+    padding: 24px 0;
+  }
+
+  &.offset {
+    position: fixed;
+    top: -175px;
+    left: 0;
+  }
+
+  &.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+
   span {
     display: block;
     text-align: center;
-    font-family: "Karla";
   }
-  .sub {
+
+  .pre {
     color: #3c3c3c;
   }
 
   .main {
     font-family: "Lobster";
     font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 4px;
+  }
+
+  .sub {
+    font-size: 1.1rem;
+    color: #3c3c3c;
+  }
+}
+
+#nav-offset {
+  &.sticky {
+    margin-top: 175px;
   }
 }

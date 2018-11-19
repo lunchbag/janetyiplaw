@@ -9,3 +9,4 @@ paginate = "100"
 
 [permalinks]
   posts = "/:filename/"
+  stories = "/:filename/"

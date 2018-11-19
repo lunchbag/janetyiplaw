@@ -7,33 +7,18 @@
 </head>
 
 <body>
-  <div id="top">
-    <span class="sub">Celebrating the life of</span>
-    <span class="main">Janet Chuk Pui Yip-Law</span>
-    <span class="sub">Feb 12, 1983 - Nov 29, 2006</span>
-  </div>
+  {{ partial "preview.html" . }}
 
+  <div id="nav-offset" />
+  {{ partial "nav.html" . }}
 
   {{ block "intro" . }}{{ end }}
 
-  <ul id="nav" class="container">
-    {{ block "nav" . }}{{ end }}
-  </ul>
-
-  {{ $.Scratch.Set "index" 1 }}
-
   {{ range where .Data.Pages "Section" "home" }}
-  {{ $index := string ($.Scratch.Get "index") }}
   <div class="section sm-container">
     <h1>{{ .Title }}</h1>
     <p>{{ .Content }}</p>
   </div>
-  <!-- <ul class="carousel">
-    {{ range where .Site.Pages ".Params.category" $index }}
-    <li style="background-image:url('{{ .Params.image }}')"></li>
-    {{ end }}
-  </ul> -->
-  {{ $.Scratch.Add "index" 1 }}
   {{ end }}
 
   <div id="content">

@@ -1,7 +1,7 @@
 ---
 title: "Legacy"
 date: 2018-11-10T20:49:55-05:00
-draft: true
+draft: false
 ---
 
 The <b>Janet Yip-Law Memorial Award in Engineering</b> for the University of Waterloo is made possible by donations from family and friends of Janet Chuk Pui Yip-Law.

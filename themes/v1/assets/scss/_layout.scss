@@ -3,7 +3,12 @@ body {
   background-color: #fff;
   width: 100%;
   margin: 0;
-  font-family: "Karla";
+  font-size: 1rem;
+  font-family: "Inconsolata";
+}
+
+.no-scroll {
+  overflow: hidden;
 }
 
 * {
@@ -13,15 +18,15 @@ body {
 h1,
 h2,
 h3 {
-  // font-style: italic;
-  font-weight: 300;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-align: center;
   color: #3c3c3c;
 }
 
 h1 {
   font-size: 1.5rem;
   padding-bottom: 12px;
-  text-align: center;
 }
 
 h2 {
@@ -29,79 +34,123 @@ h2 {
 }
 
 p {
-  font-size: 1rem;
   line-height: 1.9rem;
   margin-bottom: 24px;
-  font-weight: 200;
-  color: #3c3c3c;
+  font-weight: 400;
+  color: #1c1c1c;
 }
 
-a {
+a.link-override {
+  color: #000;
+  text-decoration: none;
+}
+
+a:not(.link-override) {
   text-decoration: none;
   color: #d0021b;
   font-weight: bold;
+  transition: color 0.2s linear;
+
+  &:hover {
+    color: #3c3c3c;
+  }
 }
 
-/* */
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  li {
+    margin: 10px;
+  }
+}
+
+/* container */
 
 .container {
   margin: 0 auto;
   width: 920px;
-}
 
-@media (max-width: 1200px) {
-  .container {
+  @media (max-width: 1200px) {
     width: 780px;
   }
-}
 
-@media (max-width: 850px) {
-  .container {
+  @media (max-width: 850px) {
     width: 600px;
   }
-}
 
-@media (max-width: 650px) {
-  .container {
+  @media (max-width: 650px) {
+    width: 100%;
     padding-left: 20px;
     padding-right: 20px;
     box-sizing: border-box;
   }
 }
-/* */
 
 .sm-container {
   margin: 0 auto;
   width: 780px;
-}
 
-@media (max-width: 1200px) {
-  .container {
+  @media (max-width: 1200px) {
     width: 600px;
   }
-}
 
-@media (max-width: 850px) {
-  .container {
+  @media (max-width: 850px) {
     width: 600px;
   }
-}
 
-@media (max-width: 650px) {
-  .container {
+  @media (max-width: 650px) {
+    width: 100%;
     padding-left: 20px;
     padding-right: 20px;
     box-sizing: border-box;
   }
 }
 
-/* columns */
+/* sections */
 
-.columns {
+.section {
+  padding-top: 24px;
+  padding-bottom: 24px;
+
+  @media (max-width: 850px) {
+    padding-top: 18px;
+    padding-bottom: 18px;
+  }
+
+  @media (max-width: 650px) {
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+}
+
+#intro {
+  background-color: #fff;
+  padding-top: 54px;
+  padding-bottom: 72px;
   display: flex;
+  justify-content: space-between;
 
-  .column {
-    flex-grow: 1;
+  @media (max-width: 650px) {
+    padding-bottom: 64px;
+  }
+
+  & > div {
+    width: 50%;
+    padding-bottom: 75%;
+    background-position: center;
+    background-size: cover;
+
+    &#pic-left {
+      background-image: url("/images/janet1.jpg");
+      margin-right: 10px;
+    }
+
+    &#pic-right {
+      background-image: url("/images/janet2.jpg");
+      margin-left: 10px;
+    }
   }
 }
 
@@ -111,9 +160,10 @@ footer {
   width: 100%;
   margin-top: 32px;
   margin-bottom: 32px;
-}
 
-footer > p {
-  font-size: 0.9rem;
-  text-align: center;
+  & p {
+    font-size: 0.9rem;
+    text-align: center;
+    padding: 0;
+  }
 }
