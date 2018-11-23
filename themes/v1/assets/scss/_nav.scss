@@ -17,6 +17,12 @@
     position: fixed;
     top: -175px;
     left: 0;
+    @media (max-width: 850px) {
+      top: -145px;
+    }
+    @media (max-width: 650px) {
+      top: -130px;
+    }
   }
 
   &.sticky {
@@ -50,5 +56,11 @@
 #nav-offset {
   &.sticky {
     margin-top: 175px;
+    @media (max-width: 850px) {
+      margin-top: 145px;
+    }
+    @media (max-width: 650px) {
+      margin-top: 130px;
+    }
   }
 }

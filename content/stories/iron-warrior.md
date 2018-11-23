@@ -2,7 +2,7 @@
 title: Iron Warrior
 date: 2018-11-18
 draft: false
-description:
+description: 2007-01-24 - Volume 28, Issue 1
 
 ---
 

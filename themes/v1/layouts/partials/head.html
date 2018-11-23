@@ -5,7 +5,7 @@
 {{- else if .Description }}
 <meta name="description" content="{{ .Description }}">
 {{- end }}
-<meta content="{{ delimit .Keywords ", " }}" name="keywords">
+<meta content="janet yip,janet yip waterloo,waterloo fund,waterloo scholarship,{{ delimit .Keywords ", " }}" name="keywords">
 <title>
 	{{- if eq .URL "/" }}
 	{{ .Site.Title }}

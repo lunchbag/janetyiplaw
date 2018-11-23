@@ -1,0 +1,42 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	background-color: transparent;
+	scrollbar-face-color : #840039;
+	scrollbar-highlight-color : #000000;
+	scrollbar-3dlight-color : #ffffff;
+	scrollbar-shadow-color : #000000;
+	scrollbar-darkshadow-color : #ffffff;
+	scrollbar-track-color : #FFFFFF;
+	scrollbar-arrow-color : #ff9ca4;
+	color: #000000;
+
+
+}
+b {
+	color: #666666;
+}
+strong {
+	color: #666666;
+}
+a {
+	text-decoration: none;
+}
+h2 {
+	font-family: "Courier New", Courier, mono;
+	color: #CC0000;
+	font-size: 36px;
+}
+h6 {
+	font-weight: bold;
+	color: #000000;
+}
+a:link {
+	color: #990000;
+}
+a:visited {
+	color: #ff0000;
+}
+a:active {
+	color: 000000;
+}

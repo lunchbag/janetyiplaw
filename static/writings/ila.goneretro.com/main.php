@@ -1,0 +1,51 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Imaginary Lovers Anonymous Welcomes You</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link href="ilastyle.css" rel="stylesheet" type="text/css">
+</head>
+
+<body background="images/mainbg.gif">
+
+<!-- MAIN MENU STARTS -->
+
+<table style="Position:absolute; top:70; left:70;" (opacity=0)>
+<ilayer name="scroll2"><br><div id="scroll2" 
+style="width:180; height:420;
+background-color:">
+
+<iframe src="menu.html" name="menuframe" width="180" height="420" style="border: 0" frameborder=0 framespacing=0 scrolling="no" ALLOWTRANSPARENCY="true"></iframe></table>
+
+
+<!-- MAIN MENU ENDS -->
+
+
+
+<!-- MAIN VIEWING WINDOW STARTS -->
+
+<table style="Position:absolute; top:0; left:270;" (opacity=0)>
+<ilayer name="scroll1"><br><div id="scroll3" 
+style="width:500; height:400;
+background-color:;
+overflow:auto">
+
+<iframe src="insidepage.html" name="insideframe" width="500" height="400" style="border: 0" frameborder=0 framespacing=0 scrolling="yes" ALLOWTRANSPARENCY="true"></iframe></table>
+
+<!-- MAIN VIEWING WINDOW ENDS -->
+
+
+<table style="Position:absolute; top:480; left:280;" (opacity=0)>
+<ilayer name="scroll3"><br><div id="scroll3" 
+style="width:100; height:20;
+background-color:">
+
+#
+<?php
+include ("countila.php");
+?>
+</table>
+
+
+</body>
+</html>

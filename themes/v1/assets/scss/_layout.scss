@@ -13,6 +13,8 @@ body {
 
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 h1,
@@ -26,11 +28,13 @@ h3 {
 
 h1 {
   font-size: 1.5rem;
+  padding-top: 24px;
   padding-bottom: 12px;
 }
 
 h2 {
   font-size: 1.2rem;
+  padding-bottom: 12px;
 }
 
 p {
@@ -38,6 +42,7 @@ p {
   margin-bottom: 24px;
   font-weight: 400;
   color: #1c1c1c;
+  text-align: justify;
 }
 
 a.link-override {
@@ -127,8 +132,7 @@ ul {
 
 #intro {
   background-color: #fff;
-  padding-top: 54px;
-  padding-bottom: 72px;
+  padding: 48px 0;
   display: flex;
   justify-content: space-between;
 
@@ -158,8 +162,8 @@ ul {
 
 footer {
   width: 100%;
-  margin-top: 32px;
-  margin-bottom: 32px;
+  margin-top: 24px;
+  margin-bottom: 24px;
 
   & p {
     font-size: 0.9rem;

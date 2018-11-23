@@ -10,7 +10,9 @@ body {
   overflow: hidden; }
 
 * {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
 
 h1,
 h2,
@@ -22,16 +24,19 @@ h3 {
 
 h1 {
   font-size: 1.5rem;
+  padding-top: 24px;
   padding-bottom: 12px; }
 
 h2 {
-  font-size: 1.2rem; }
+  font-size: 1.2rem;
+  padding-bottom: 12px; }
 
 p {
   line-height: 1.9rem;
   margin-bottom: 24px;
   font-weight: 400;
-  color: #1c1c1c; }
+  color: #1c1c1c;
+  text-align: justify; }
 
 a.link-override {
   color: #000;
@@ -100,8 +105,7 @@ ul {
 
 #intro {
   background-color: #fff;
-  padding-top: 54px;
-  padding-bottom: 72px;
+  padding: 48px 0;
   display: flex;
   justify-content: space-between; }
   @media (max-width: 650px) {
@@ -122,8 +126,8 @@ ul {
 /* footer */
 footer {
   width: 100%;
-  margin-top: 32px;
-  margin-bottom: 32px; }
+  margin-top: 24px;
+  margin-bottom: 24px; }
   footer p {
     font-size: 0.9rem;
     text-align: center;
@@ -145,6 +149,12 @@ footer {
     position: fixed;
     top: -175px;
     left: 0; }
+    @media (max-width: 850px) {
+      #top.offset {
+        top: -145px; } }
+    @media (max-width: 650px) {
+      #top.offset {
+        top: -130px; } }
   #top.sticky {
     position: fixed;
     top: 0;
@@ -165,6 +175,12 @@ footer {
 
 #nav-offset.sticky {
   margin-top: 175px; }
+  @media (max-width: 850px) {
+    #nav-offset.sticky {
+      margin-top: 145px; } }
+  @media (max-width: 650px) {
+    #nav-offset.sticky {
+      margin-top: 130px; } }
 
 img.expandable {
   max-width: 100%; }

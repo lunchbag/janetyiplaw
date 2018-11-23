@@ -9,7 +9,7 @@ Janet left a sizeable impact on the world. Below is a collection of photos, stor
 <center>
   <ul>
     <li><a href="/stories">Stories about Janet</a></li>
-    <li><a href="/janet">Janet's writings</a></li>
+    <li><a href="/writings">Janet's writings</a></li>
     <li><a href="/photos">Photos of Janet</a></li>
   </ul>
 </center>

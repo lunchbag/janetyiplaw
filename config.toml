@@ -6,6 +6,7 @@ paginate = "100"
 
 [params]
   author = "Jennifer Yip"
+  description = "In loving memory of Janet Chuk Pui Law-Yip"
 
 [permalinks]
   posts = "/:filename/"

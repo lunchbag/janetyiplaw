@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  {{ partial "head.html" . }}
+  {{ block "page_css" . }}{{ end }}
+</head>
+
+<body>
+  {{ partial "preview.html" . }}
+
+  <div id="nav-offset" />
+  {{ partial "nav.html" . }}
+
+  {{ block "intro" . }}{{ end }}
+
+  <div class="section sm-container">
+    <h1>{{ .Title }}</h1>
+    <p>{{ .Content }}</p>
+  </div>
+
+  <div id="content">
+    {{ block "main" . }}{{ end }}
+  </div>
+  {{ partial "footer.html" . }}
+
+  {{ block "page_js" . }}{{ end }}
+</body>
+
+</html>

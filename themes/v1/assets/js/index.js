@@ -10,8 +10,10 @@ document.addEventListener(
 
     window.addEventListener("scroll", function() {
       if (window.scrollY > triggerPoint) {
+        console.log("add 2");
         top.classList.add("sticky");
       } else if (window.scrollY > topHeight) {
+        console.log("add 1");
         top.classList.add("offset");
         navOffset.classList.add("sticky");
       } else if (window.scrollY === 0) {

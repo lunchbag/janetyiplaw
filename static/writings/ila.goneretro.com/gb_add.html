@@ -1,0 +1,30 @@
+<HTML><HEAD>
+<link href="ilastyle.css" rel="stylesheet" type="text/css">
+</HEAD><BODY>
+Add an entry.
+<P>
+<FORM METHOD=post ACTION="gb_insert.php">
+
+<B>Name: </B>
+<INPUT TYPE="text" NAME="name" SIZE="30" MAXLENGTH="50">
+<P>
+<B>Email: </B>
+<INPUT TYPE="text" NAME="email" SIZE="30" MAXLENGTH="50">
+<P>
+Do you want your email to be hidden from public viewing?
+<BR>
+<INPUT TYPE="radio" NAME="emailhide" VALUE="yes">Yes
+<INPUT TYPE="radio" NAME="emailhide" VALUE="no" checked>NO
+<P>
+<B>URL: </B>
+<INPUT TYPE="text" NAME="url" SIZE="30" MAXLENGTH="50">
+<P>
+<B>Your message:</B>
+<BR><TEXTAREA NAME="msg" ROWS=5 COLS=30></textarea>
+<P>
+<INPUT TYPE="submit" VALUE="Submit">
+<INPUT TYPE="reset" VALUE="Clear">
+
+</FORM></BODY></HTML>
+
+

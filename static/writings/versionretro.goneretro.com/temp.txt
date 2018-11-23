@@ -1,0 +1,24 @@
+<!-- INTRO starts -->
+<table width="100%" border="0" cellspacing="0" cellpadding="4">
+<tr><td bgcolor="2ca500">
+<b>Bienvenue</b>
+</td></tr>
+<tr><td bgcolor="66ff00"><font size="2">
+The main purpose behind all my website projects is to give myself an opportunity to write.  Though most of my writing's mundane and horribly ignorant and biased... well whatever.  The point is, if there's any meat, it'd be here, where all my subjective editorials and commentaries are located.
+</font></td></tr>
+</table>
+<!-- INTRO ends -->
+
+
+<!-- FEATURE 1 starts -->
+<table width="100%" border="0" cellspacing="0" cellpadding="4">
+<tr><td bgcolor="78e100">
+<b>The Garage of the Geeks</b>
+</td></tr>
+<tr><td bgcolor="d2ff78"><font size="2">
+This was actually an essay I wrote for my 20th Century World History class, but it was a topic of great interest and I had a lot of fun reading it.  Since it wasn't for a university class, the material still belongs to me so I figured I'll post it <b><a href="geek.html">here</a></b>.
+</font></td></tr>
+</table>
+<!-- FEATURE 2 ends -->
+
+
