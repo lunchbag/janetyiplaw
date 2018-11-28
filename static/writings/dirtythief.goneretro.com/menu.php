@@ -2,7 +2,7 @@
 
 <style type="text/css">
 <!--
-a:visited 
+a:visited
 {text-decoration: none}
 a:link
 {text-decoration: none}
@@ -28,33 +28,8 @@ body
 
 
 <A HREF="index.html">Home</A>
-<BR><A HREF="http://loserculb.goneretro.com/gblogs/addbook.php">Logs</A>
-<BR><A HREF="http://loserculb.goneretro.com">The Loser Culb</A>
+<BR><A HREF="../loserculb.goneretro.com/gblogs/addbook.php">Logs</A>
+<BR><A HREF="../loserculb.goneretro.com">The Loser Culb</A>
 
 </B></FONT>
 </BODY></HTML>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

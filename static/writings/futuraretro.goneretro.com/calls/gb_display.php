@@ -44,7 +44,7 @@ $url=$row ["URL"];
 $msg=$row["MSG"];
 $date=$row["MSGDATE"];
 
-echo "<P><CENTER>*   *   *   *   *</CENTER><P><FONT SIZE=2>";
+echo "<P><CENTER>*'''*'''*'''*'''*</CENTER><P><FONT SIZE=2>";
 
 if ($emailhide=='no'){
 echo "<B><A HREF=mailto:$email>$name</A></B>: ";
