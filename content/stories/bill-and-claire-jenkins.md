@@ -6,6 +6,8 @@ description: Written by Bill and Claire Jenkins
 
 ---
 
+<i>Editor's note: Bill and Claire Jenkins were Janet's last landlord. She was living in Brockville, Ontario, a city of 20,000 people, for her final co-op term at Proctor & Gamble.</i>
+
 We, that is, my wife Claire and I, first met Janet through an introduction by Simon Girard, a U. of Laval student doing a work term at Proctor and Gamble, here in Brockville. Simon and his friend Catherine Cote rented our third floor apartment from May until the end of August 2006.
 
 Simon spoke positively about our apartment when he met Janet as she visited P&G for an interview prior to starting her work term. Before long, she came around and had a chance to look at the two bedroom top floor of our two and one-half storey home. Simon and Catherine pointed out all the great features of living here. Janet asked very few questions about the apartment. She was more interested in how things worked at P&G and the social life in little old Brockville.
