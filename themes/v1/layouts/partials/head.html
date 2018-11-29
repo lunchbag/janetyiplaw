@@ -5,6 +5,7 @@
 {{- else if .Description }}
 <meta name="description" content="{{ .Description }}">
 {{- end }}
+<meta property="og:image" content="https://janetlawyip.com/images/janet2.jpg" />
 <meta content="janet yip,janet yip waterloo,waterloo fund,waterloo scholarship,{{ delimit .Keywords ", " }}" name="keywords">
 <title>
 	{{- if eq .URL "/" }}
