@@ -1,12 +1,12 @@
 baseURL = "https://janetyiplaw.com"
 languageCode = "en-us"
-title = "Janet Law-Yip"
+title = "In loving memory of Janet Law-Yip"
 theme = "v1"
 paginate = "100"
 
 [params]
   author = "Jennifer Yip"
-  description = "In loving memory of Janet Chuk Pui Law-Yip"
+  description = "Janet Chuk Pui Law-Yip passed away peacefully on November 29th, 2006 at Kingston General Hospital with her family by her side."
 
 [permalinks]
   posts = "/:filename/"

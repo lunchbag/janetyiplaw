@@ -1,6 +1,10 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="In loving memory of Janet Law-Yip">
+{{- if eq .URL "/" }}
+<meta name="description" content="{{ .Site.Params.Description }}">
+{{- else if .Description }}
+<meta name="description" content="{{ .Description }}">
+{{- end }}
 <meta content="janet yip,janet yip waterloo,waterloo fund,waterloo scholarship,{{ delimit .Keywords ", " }}" name="keywords">
 <title>
 	{{- if eq .URL "/" }}
