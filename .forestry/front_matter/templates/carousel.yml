@@ -1,7 +1,6 @@
 ---
 label: Carousel
 hide_body: false
-is_partial: false
 fields:
 - type: file
   name: image
@@ -21,5 +20,3 @@ fields:
   name: category
   description: The carousel this image should be inserted in
   default: 1st
-pages:
-- content/carousel-1.md
